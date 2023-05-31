@@ -45,9 +45,9 @@ switch(birthMonth){
 }
 
 // Exercise 3
-let typeId = "01";
-let colorId = "PU";
-let sizeId = "L";
+let typeId = "90";
+let colorId = "A";
+let sizeId = "A";
 
 let type = "";
 let color = "";
@@ -63,7 +63,7 @@ switch (typeId){
     break;
 
   case "03":
-    type = "Long-Sleeve";
+    type = "Long Sleeve";
     break;
 
   case "04":
@@ -92,7 +92,7 @@ switch (colorId){
     break;
 
   default:
-    color = white;
+    color = "White";
 }
 
 switch (sizeId){
