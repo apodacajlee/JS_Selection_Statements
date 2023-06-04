@@ -24,19 +24,27 @@ else if(userNumber == number){
 let birthMonth = prompt("What is your birth month?");
 
 switch(birthMonth){
-  case("December" || "January" || "February"):
+  case("December"):
+  case("January"):
+  case("February"):
     console.log("You were born in Winter");
     break;
 
-  case("March" || "April" || "May"):
+  case("March"):
+  case("April"):
+  case("May"):
     console.log("You were born in Spring");
     break;
 
-  case("June" || "July" || "August"):
+  case("June"):
+  case("July"):
+  case("August"):
     console.log("You were born in Summer");
     break;
 
-  case("September" || "October" || "November"):
+  case("September"):
+  case("October"):
+  case("November"):
     console.log("You were born in Fall");
     break;
 
